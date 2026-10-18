@@ -6,13 +6,14 @@ export const profileConfig: ProfileConfig = {
 	// 1. public 目录（以 "/" 开头，不优化）："/assets/images/avatar.webp"
 	// 2. src 目录（不以 "/" 开头，自动优化但会增加构建时间，推荐）："assets/images/avatar.webp"
 	// 3. 远程 URL："https://example.com/avatar.jpg"
-	avatar: "assets/images/avatar.avif",
+	// avatar: "assets/images/avatar.avif",
+	avatar: "https://weavatar.com/avatar/7b68b0d48dbd1a1e1cb60dfc82c5b4f08bb0de0ec49f03026fcb0c61bc5cec5a?s=640",
 
 	// 名字
-	name: "XiaYe",
+	name: "星云质心",
 
 	// 个人签名
-	bio: "Hello, I'm XiaYe.",
+	bio: "记录生活，分享技术",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -24,26 +25,32 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
+			url: "https://github.com/WJD1005",
+			showName: false,
+		},
+		{
+			name: "Bilibili",
+			icon: "fa7-brands:bilibili",
+			url: "https://space.bilibili.com/13205905",
 			showName: false,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:1034691208@qq.com",
 			showName: false,
 		},
 		{
-			name: "RSS",
-			icon: "fa7-solid:rss",
-			url: "/rss/",
+			name: "QQ",
+			icon: "fa7-brands:qq",
+			url: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1034691208",
 			showName: false,
 		},
-		{
-			name: "Atom",
-			icon: "fa7-solid:atom",
-			url: "/atom/",
-			showName: false,
-		},
+		// {
+		// 	name: "Atom",
+		// 	icon: "fa7-solid:atom",
+		// 	url: "/atom/",
+		// 	showName: false,
+		// },
 	],
 };

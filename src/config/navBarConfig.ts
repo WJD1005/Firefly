@@ -97,29 +97,43 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	});
 
 	// 自定义导航栏链接
+	// links.push({
+	// 	name: "链接",
+	// 	url: "#",
+	// 	icon: "material-symbols:link",
+	// 	// 子菜单
+	// 	children: [
+	// 		{
+	// 			name: "GitHub",
+	// 			url: "https://github.com/WJD1005",
+	// 			external: true,
+	// 			icon: "fa7-brands:github",
+	// 		},
+	// 		{
+	// 			name: "Bilibili",
+	// 			url: "https://space.bilibili.com/13205905",
+	// 			external: true,
+	// 			icon: "fa7-brands:bilibili",
+	// 		},
+	// 	],
+	// });
 	links.push({
-		name: "链接",
+		name: "订阅",
 		url: "#",
-		icon: "material-symbols:link",
+		icon: "material-symbols:podcasts",
 		// 子菜单
 		children: [
 			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				name: "RSS",
+				url: "/rss/",
 				external: true,
-				icon: "fa7-brands:github",
+				icon: "fa7-solid:rss",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
+				name: "Atom",
+				url: "/atom/",
 				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
+				icon: "fa7-solid:atom",
 			},
 		],
 	});

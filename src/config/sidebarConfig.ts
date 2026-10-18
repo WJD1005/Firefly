@@ -190,7 +190,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 					image: {
 						src: "/assets/images/ad/ad1.webp",
 						alt: "广告横幅",
-						link: "https://haoka.lot-ml.com/plugreg.html?agentid=1423316",
+						link: "https://github.com/WJD1005",
 						external: true,
 					},
 					// 是否允许关闭广告

@@ -1,25 +1,44 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是**星云质心**。
 
-## 🛠️ 关于本站
+一片散落的、模糊的、看不清边界的星云，和一个在这片模糊里唯一确定的点。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+## 🛰️ 关于本站
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+这片星云没有固定的星轨。这里可能掉落硬核技术、生活碎片，或是偶尔闪烁的短篇脑洞。不设领域边界，只有随引力交织的漫游。星尘散落无定式，落笔皆随质心引力。
 
+## 🧑‍🚀 关于博主
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+这具碳基躯壳的日常，是敲击代码、解构逻辑，以及和无尽的 Bug 作斗争。
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+习惯了用理性的框架去理解世界，我可能不太擅长现实中的寒暄。物理层面的我或许平平无奇，但在精神世界里，偶尔也会为了一首诗或一片夕阳而感性。
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+相信极致的逻辑，也偶尔接纳无解的混沌。
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+## 🌟 特别鸣谢
+
+本站的搭建离不开开源社区与免费服务的慷慨支持。如果没有它们，这片星云将无法在这个宇宙中闪烁。在此，由衷感谢：
+
+### 框架与主题
+
+::github{repo="withastro/astro"}
 
 ::github{repo="CuteLeaf/Firefly"}
 
-::github{repo="saicaca/fuwari"}
+### 基础设施
+
+<div style="display: grid; grid-template-columns: 130px 1fr; gap: 12px; align-items: baseline; margin-top: 15px;">
+  <a href="https://github.com" target="_blank" style="font-weight: bold; text-decoration: none;">GitHub</a> 
+  <span>代码托管与版本管理</span>
+  <a href="https://www.cloudflare.com" target="_blank" style="font-weight: bold; text-decoration: none;">Cloudflare</a> 
+  <span>免费、极速的全球部署与 CDN</span>
+  <a href="https://weavatar.com" target="_blank" style="font-weight: bold; text-decoration: none;">WeAvatar</a> 
+  <span>头像服务</span>
+  <a href="https://cloudinary.com" target="_blank" style="font-weight: bold; text-decoration: none;">Cloudinary</a> 
+  <span>图片存储与分发</span>
+</div>
+
 
 ---
 
