@@ -229,7 +229,7 @@ sudo update-ca-trust
 ```
 
 这里发现火狐浏览器无须手动导入证书即可实现加速（后面换 Chromium 也没问题），应该是继承了系统证书，Fedora 在这一方面做得比较好，无须按照官网教程手动一个个导入，但 Steam 还不能加速，还是需要处理证书。官网说由于内核是相同的所以给 Chrome 导入即可，但其实不用额外装一个 Chrome 浏览器，启动 Steam 任意一个游戏，使用 `Shift + Tab` 打开游戏内覆盖，找到网页浏览器，这个网页浏览器可以修改地址栏，输入 `chrome://settings/certificates`，然后参考官网教程导入。但是实际上我发现也不用导入，在授权机构 `org-BeyondDimension` 下已经能看到`
-SteamTools Certificate`了，只是显示不可信，点击修改勾选` 信任该证书，以标识网站身份`，然后即可成功加速。
+SteamTools Certificate`了，只是显示不可信，点击修改勾选 `信任该证书，以标识网站身份`，然后即可成功加速。
 
 最后为了方便启动，新建桌面启动文件 `~/.local/share/applications/watt-toolkit.desktop` 然后写入：
 
