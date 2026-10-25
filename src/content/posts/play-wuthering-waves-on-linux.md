@@ -2,7 +2,7 @@
 title: 如何在 Linux 上玩《鸣潮》
 published: 2026-10-25
 description: '在 Fedora 系统上运行《鸣潮》的完整方案，通过 ProtonPlus 安装 DW-Proton 兼容层，借助 ww-manager 命令行工具下载并管理游戏本体，最后利用 Steam 配置特定参数启动。'
-image: ''
+image: 'https://res.cloudinary.com/rhc7o5mz/image/upload/blog/posts/play-wuthering-waves-on-linux/cover.avif'
 tags: [Linux, 游戏, 鸣潮, Steam, Proton]
 category: 'Linux'
 slug: play-wuthering-waves-on-linux
